@@ -8,3 +8,6 @@ IdentityServer4 & Oauth based Microservices
 
 Backend:
 ASP.NET Core 3.1  APIs
+
+Hosting:
+Azure App Services
