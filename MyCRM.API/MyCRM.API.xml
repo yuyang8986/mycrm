@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>MyCRM.API</name>
+  </assembly>
+  <members>
+    <member name="M:MyCRM.API.Controllers.AccountUserController.Fetch">
+      <summary>
+        fetch data for user dashboard
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:MyCRM.API.Controllers.AccountUserController.AddNewCompanyToAccount(MyCRM.Shared.Communications.Requests.AccountUser.AddCompanyToAccountUserRequest)">
+      <summary>
+        add a new company to the user account
+      </summary>
+      <param name="addCompanyToAccountUserRequest"></param>
+      <returns></returns>
+    </member>
+    <member name="M:MyCRM.API.Controllers.AccountUserController.UpdateSubscription(MyCRM.Shared.Communications.Requests.AccountUser.UpdateSubscriptionPlanRequest)">
+      <summary>
+        update current user subscription plan
+      </summary>
+      <param name="request"></param>
+      <returns></returns>
+    </member>
+    <member name="M:MyCRM.API.Controllers.AuthenticationController.Register(MyCRM.Shared.Communications.Requests.Authentication.RegisterRequest)">
+      <summary>
+        register a new user
+      </summary>
+      <param name="model"></param>
+      <returns></returns>
+    </member>
+    <member name="T:MyCRM.API.Controllers.EmployeeController">
+      <summary>
+        Employee resource
+      </summary>
+    </member>
+    <member name="M:MyCRM.API.Controllers.EmployeeController.#ctor(MyCRM.Services.Repository.EmployeeRepository.IEmployeeRepository,Microsoft.AspNetCore.Identity.UserManager{MyCRM.Persistence.Models.AppUser},AutoMapper.IMapper)">
+      <summary>
+        ctor
+      </summary>
+      <param name="employeeRepository"></param>
+      <param name="UserManager"></param>
+    </member>
+    <member name="M:MyCRM.API.Controllers.EmployeeController.GetEmployeePipelineEvents(System.Int32)">
+      <summary>
+        get all pipelineflows related to a employee
+      </summary>
+      <param name="employeeId">employee id</param>
+      <returns></returns>
+    </member>
+    <member name="T:MyCRM.API.Controllers.PipelineController">
+      <summary>
+        pipe line resource
+      </summary>
+    </member>
+  </members>
+</doc>

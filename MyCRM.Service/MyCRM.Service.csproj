@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj" />
+    <ProjectReference Include="..\MyCRM.Shared\MyCRM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
